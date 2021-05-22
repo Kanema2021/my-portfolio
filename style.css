@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+
+ }
+   
+ body {
+    background-image: url("./Assets/brick-wall-1.jpg");
+    background-size: cover;
+ }
+
+.header {
+    color: rgb(27, 49, 43);
+    background-color: rgb(150, 180, 179); 
+    text-shadow: rgb(80, 104, 114) 4px 4px 1px ;
+    border-style: double;
+    box-shadow: rgb(80, 104, 114) 4px 4px 1px ;
+    text-align: right;
+    font-size: 25px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-family:fantasy;
+    border-width: thick;
+    font-weight: 900;
+    margin-bottom: -1px;
+
+ }
+
+.header h1 {
+    margin: 1px;  
+    
+ }
+    
+ .header nav ul{
+
+    list-style-type: none;
+    font-style: italic;
+    font-weight: bolder;
+    float: left;
+    text-shadow: black 1.5px 1.5px;
+    margin-top: -60px;
+    justify-content: space-around;
+    display: flex;
+    flex-flow: wrap
+    
+ }
+
+ .header nav ul li {
+    padding: 10px;
+    font-weight: 800;
+    display: inline;
+    font-size: 22px;
+    text-decoration: none;
+    
+ }
+
+ a:hover {
+    background-color: rgb(172, 140, 140)
+        
+ }
+    
+ .mainimage {
+        
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+        
+ }
+
+ .container{
+    display: inline-block; 
+    width: 100%;
+    margin: auto;
+    clear: both;
+    overflow: auto;
+    height: 100%;
+      
+ }
+
+ .imagediv img{
+    width: 85%;
+       
+ }
+
+ #scotland:hover {
+    transform: scale(1.25);
+      
+ }
+
+ #css {
+    padding-top: 13px;
+      
+ }
+
+ #css:hover {
+    transform: scale(1.25);
+
+ }
+
+    img.rounded {
+    border-radius: 7px;
+
+ }
+      
+ #projects {
+    width: 50%;
+    float: left;
+      
+ }
+     
+ .projects {
+    color: rgb(27, 49, 43);
+    font-size: 50px;
+    font-family: fantasy;
+    font-weight:900;
+    padding-bottom: 0px;
+    text-align: center;
+    
+ }
+
+ #aboutme {
+    font-family:fantasy;
+    font-weight:900;
+    font-size: 30px;
+    width: 50%;
+    float: left;
+    text-align: center;
+       
+ }
+
+ #aboutme img {
+    width: 40%;
+    float: left;
+    margin-left: 40px;
+    margin-top: 10px;
+    padding-right: 10px;
+
+ }
+
+ #aboutme p {
+    font-size: 16px;
+    display: center;
+        
+ }
+
+ #footer {
+    background-color: rgb(27, 49, 43);; 
+    display: block;
+    color: white;
+    border-style: double;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 7rem;
+    margin-top: 35px;
+    border-radius: 10px;
+
+ }   
+
+ #footer ul li { 
+    list-style: none;
+    text-align: left;
+    justify-content: space-evenly;
+    font-family: fantasy; 
+
+ }
+
+ #contactinfo a{
+    text-decoration: none;
+    color: white;
+    font-size: 14;
+ }
+  
+ @media screen and (max-width: 768px) {
+    #projects  {
+        width:100%;
+        
+    }
+  }
+   
+ @media screen and (max-width: 576px) {
+    #projects  {
+      width:100%;
+      
+    }
+  }
+
+ @media screen and (max-width: 768px) {
+    .header {
+        width:100%;
+        
+    }
+  }
+
+ @media screen and (max-width: 576px) {
+    .header  {
+      width:100%;
+      
+    }
+  }
